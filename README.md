@@ -1,7 +1,8 @@
 # number-tool-box 
 
 ## OverView
-Hello , this is number-tool-box app with basic design and js logic , It has arrays of numbers so u can perform some functions on array example:Show even number , Check if its in array and etc.
+Hello , this is a Number Tool Box  simple app with a basic design and JavaScript logic.
+It works with arrays of numbers and allows you to perform useful functions on them.
 
 ## Features
 - Show even numbers function
