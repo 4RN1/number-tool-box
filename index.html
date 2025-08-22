@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Number Tool Box</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .number-list {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .num {
+      background: #222;
+      color: #00ff00;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    input {
+      padding: 8px;
+      font-size: 14px;
+      margin-right: 10px;
+      width: 100px;
+    }
+
+    .output {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Number Tool Box</h2>
+
+  <div class="number-list" id="number-list">
+    <!-- Numbers will be inserted here -->
+  </div>
+
+  <div class="buttons">
+    <button id="evenBtn">Show Even Numbers</button>
+    <button id="sumBtn">Show Sum</button>
+    <button id="reverseBtn">Reverse Numbers</button>
+
+    <div>
+      <input type="number" id="checkInput" placeholder="Check number" />
+      <button id="checkBtn">Check Number</button>
+    </div>
+
+    <div>
+      <input type="number" id="addInput" placeholder="Add number" />
+      <button id="addBtn">Add Number</button>
+    </div>
+     <div>
+      <button id="removeBtn">Remove Number</button>
+    </div>
+  </div>
+
+  <div class="output" id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
